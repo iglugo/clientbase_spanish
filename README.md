@@ -8,10 +8,10 @@ Instalación:
 1. Subir los archivos a la web
 
 2. Modificar los permisos de las siguientes carpetas para que se puedan escribir en ellas:
-    /application/helpers/dompdf/lib/fonts/
-    /application/modules_core/invoices/views/invoice_templates/
-    /application/modules_core/payments/views/receipt_templates/
-    /uploads/
+    - /application/helpers/dompdf/lib/fonts/
+    - /application/modules_core/invoices/views/invoice_templates/
+    - /application/modules_core/payments/views/receipt_templates/
+    - /uploads/
 
 3. Crear una base de datos mySQL e introducir los datos en el archivo: /application/config/database.php
     $db['default']['hostname'] = 'tu_bbdd_hostname';
