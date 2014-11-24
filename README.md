@@ -14,9 +14,9 @@ Instalación:
     - /uploads/
 
 3. Crear una base de datos mySQL e introducir los datos en el archivo: /application/config/database.php
-    $db['default']['hostname'] = 'tu_bbdd_hostname';
-    $db['default']['username'] = 'tu_bbdd_username';
-    $db['default']['password'] = 'tu_bbdd_password';
-    $db['default']['database'] = 'tu_bbdd_name';
+    - $db['default']['hostname'] = 'tu_bbdd_hostname';
+    - $db['default']['username'] = 'tu_bbdd_username';
+    - $db['default']['password'] = 'tu_bbdd_password';
+    - $db['default']['database'] = 'tu_bbdd_name';
 
 4. Continuar con la instalación yendo al siguiente link: http://nombre_del_dominio.com/index.php/setup
