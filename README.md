@@ -20,3 +20,5 @@ Instalación:
     - $db['default']['database'] = 'tu_bbdd_name';
 
 4. Continuar con la instalación yendo al siguiente link: http://nombre_del_dominio.com/index.php/setup
+
+5. Finalmente, una vez instalada la aplicación, en configuración de sistema podremos cambiar el idioma, y luego en la pestaña GENERAL deberemos de cambiar nuestro general pdf de dompdf --> mpdf para no tener problemas a la hora de generar PDFs si usamos carácteres especiales como tildes, símbolo del euro, eñe, etc.. 
